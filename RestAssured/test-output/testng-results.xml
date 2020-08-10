@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-07T17:25:36 IST" name="Default suite" finished-at="2020-08-07T17:25:44 IST" duration-ms="8385">
+    <groups>
+    </groups>
+    <test started-at="2020-08-07T17:25:36 IST" name="Default test" finished-at="2020-08-07T17:25:44 IST" duration-ms="8385">
+      <class name="BasicValidation">
+        <test-method signature="headersValidation()[pri:0, instance:BasicValidation@23f7d05d]" started-at="2020-08-07T17:25:36 IST" name="headersValidation" finished-at="2020-08-07T17:25:40 IST" duration-ms="3714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headersValidation -->
+        <test-method signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:BasicValidation@23f7d05d]" started-at="2020-08-07T17:25:40 IST" name="md5JsonTest" data-provider="md5hashes" finished-at="2020-08-07T17:25:41 IST" duration-ms="1488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testcaseOne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4ff1c9b1d1f23c6def53f957b1ed827f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- md5JsonTest -->
+        <test-method signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:BasicValidation@23f7d05d]" started-at="2020-08-07T17:25:41 IST" name="md5JsonTest" data-provider="md5hashes" finished-at="2020-08-07T17:25:42 IST" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testcaseTwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[39738347fb533d798aca9ae0f56ca126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- md5JsonTest -->
+        <test-method signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:BasicValidation@23f7d05d]" started-at="2020-08-07T17:25:42 IST" name="md5JsonTest" data-provider="md5hashes" finished-at="2020-08-07T17:25:42 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testcaseThree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[db6b151bb4bde46fddb361043bc3e2d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- md5JsonTest -->
+        <test-method signature="statusCodeLine()[pri:0, instance:BasicValidation@23f7d05d]" started-at="2020-08-07T17:25:42 IST" name="statusCodeLine" finished-at="2020-08-07T17:25:43 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeLine -->
+        <test-method signature="statusCodeValidation()[pri:0, instance:BasicValidation@23f7d05d]" started-at="2020-08-07T17:25:43 IST" name="statusCodeValidation" finished-at="2020-08-07T17:25:44 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeValidation -->
+      </class> <!-- BasicValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
