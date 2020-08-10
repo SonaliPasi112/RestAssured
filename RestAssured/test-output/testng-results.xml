@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-10T22:42:31 IST" name="Default suite" finished-at="2020-08-10T22:42:38 IST" duration-ms="6917">
+    <groups>
+    </groups>
+    <test started-at="2020-08-10T22:42:31 IST" name="Default test" finished-at="2020-08-10T22:42:38 IST" duration-ms="6917">
+      <class name="CrudOperations">
+        <test-method signature="ValidateGetRequest()[pri:0, instance:CrudOperations@27c86f2d]" started-at="2020-08-10T22:42:31 IST" name="ValidateGetRequest" finished-at="2020-08-10T22:42:36 IST" duration-ms="4545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateGetRequest -->
+        <test-method signature="validateDeleteRequest()[pri:0, instance:CrudOperations@27c86f2d]" started-at="2020-08-10T22:42:36 IST" name="validateDeleteRequest" finished-at="2020-08-10T22:42:36 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteRequest -->
+        <test-method signature="validatePostRequest()[pri:0, instance:CrudOperations@27c86f2d]" started-at="2020-08-10T22:42:36 IST" name="validatePostRequest" finished-at="2020-08-10T22:42:37 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostRequest -->
+        <test-method signature="validatePutRequest()[pri:0, instance:CrudOperations@27c86f2d]" started-at="2020-08-10T22:42:37 IST" name="validatePutRequest" finished-at="2020-08-10T22:42:38 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePutRequest -->
+      </class> <!-- CrudOperations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

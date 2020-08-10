@@ -7,6 +7,7 @@
 
        <class name="BasicValidation" />
        <class name="Trial" />
+       <class name="CrudOperations" />
 
     </classes>
 
