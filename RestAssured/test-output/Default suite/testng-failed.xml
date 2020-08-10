@@ -5,7 +5,7 @@
     <classes>
       <class name="BasicValidation">
         <methods>
-          <include name="md5JsonTest" invocation-numbers="0 1 2"/>
+          <include name="statusCodeValidation"/>
         </methods>
       </class> <!-- BasicValidation -->
     </classes>
